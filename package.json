@@ -1,5 +1,5 @@
 {
-  "name": "nodemysqlquery",
+  "name": "mysqlnodequery",
   "version": "1.0.0",
   "description": "A Node.js library to easily create MySQL queries.",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "mysql",
     "query"
   ],
-  "author": "Kemal Hasan Atay <khs26@cornell.edu>",
+  "author": "Kemal Hasan Atay <kha26@cornell.edu>",
   "license": "ISC",
   "engines": {
     "node": ">=4.2.4"

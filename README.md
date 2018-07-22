@@ -1,8 +1,8 @@
-nodemysqlquery
+mysqlnodequery
 ==============
 A Node.js library to easily create MySQL queries.
 ## Installation
-`npm install nodemysqlquery`
+`npm install mysqlnodequery`
 ## Basic Usage
 ```js
 let queryString = Query()
