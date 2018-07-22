@@ -1,0 +1,15 @@
+{
+  "name": "nodemysqlquery",
+  "version": "1.0.0",
+  "description": "A Node.js library to easily create MySQL queries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mysql",
+    "query"
+  ],
+  "author": "Kemal Hasan Atay <khs26@cornell.edu>",
+  "license": "ISC"
+}
