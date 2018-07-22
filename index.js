@@ -153,7 +153,7 @@ class Query {
         if (Number.isNaN(limit)) {
             throw new Error('Invalid type for limit. Needs to be an integer.');
         }
-        if (!Number.isNaN(offset)) {
+        if (!Number.isNaN(offset) && typeof offset !== 'undefined') {
             this.limitQ = ` LIMIT ${offset}, ${limit}`;
         } else {
             this.limitQ = ` LIMIT ${limit}`;

@@ -4,12 +4,19 @@
   "description": "A Node.js library to easily create MySQL queries.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter nyan"
   },
   "keywords": [
     "mysql",
     "query"
   ],
   "author": "Kemal Hasan Atay <khs26@cornell.edu>",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
 }
